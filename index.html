@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alan Kültür ve Yardım Vakfı</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <span>info@alanvakfi.org.tr</span>
+        </div>
+        <div class="logo-section">
+            <img src="logo.png" height="100" width="450">
+        </div>
+        <nav class="main-menu">
+            <ul>
+                <li><a href="index.html">Anasayfa</a></li>
+                <li><a href="harita.html">Alan Vakfı</a>
+                <li><a href="#">Kütüphane</a></li>
+                <li><a href="destek.html">İletişim</a></li>
+                <li><a href="kayıt.html">Kayıt Ol</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="content-wrapper">
+            
+            <section class="featured-content">
+                <div id="galeri" class="carousel slide" data-ride="carousel">
+                    <!-- <ul> elemanı resim geçişlerini yönetmek için çizgi şeklinde işaretçilerin eklenildiği
+                    bölümdür. <li> elemanları ile çizgiler eklenir. Her resim için bir işaretçi eklenmelidir.-->
+                    <ul class="carousel-indicators">
+                    <li data-target="#galeri" data-slide-to="0" class="active"></li>
+                    <li data-target="#galeri" data-slide-to="1"></li>
+                    <!-- Galerideki resim sayısına göre <li> etiketi eklenmelidir.-->
+                    </ul>
+                    <div class="carousel-inner"><!-- Galeri resimlerinin ve metinlerinin eklendiği bölümdür. -->
+                    <div class="carousel-item active"><!--İlk gösterilecek resim için active sınıfı eklenir.-->
+                    <img src="narton10.jpg" width="1100" height="500">
+                    <div class="carousel-caption">
+                    <h3>Türkiye</h3> <p>Karadeniz Bölgesi, Ordu Sahil Yolu</p>
+                    </div>
+                    </div>
+                    <div class="carousel-item">
+                    <img src="resim3.jpg" width="1100" height="500">
+                    <div class="carousel-caption">
+                    <h3>Türkiye</h3> <p>Ege Bölgesi, İzmir Saat Kulesi </p>
+                    
+                    </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#galeri" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span> <!-- Önceki resmi gösterme butonu -->
+                    </a>
+                    <a class="carousel-control-next" href="#galeri" data-slide="next">
+                    <span class="carousel-control-next-icon"></span> <!-- Sonraki resmi gösterme butonu -->
+                    </a>
+                </div>
+                    </div>
+            </section>
+            <div style="height: 55px; padding: 200px;"></div>
+            <aside class="sidebar">
+                <section class="announcements">
+                    <h2>Duyurular</h2>
+                    <ul>
+                        <li><a href="#">Yepyeni Bir Organizasyon... Bambaşka...</a></li>
+                        <li><a href="#">Ossetya Yolcusu Gençler...</a></li>
+                        <li><a href="#">Kamuoyuna Duyurulur...</a></li>
+                    </ul>
+                </section>
+                <section class="events">
+                    <h2>Etkinlikler</h2>
+                    <div class="event-item">
+                        <img src="unnamed.png" alt="Etkinlik 1">
+                        <p>Etkinlik 1: Kültür Festivali</p>
+                    </div>
+                    <div class="event-item">
+                        <img src="https://via.placeholder.com/150" alt="Etkinlik 2">
+                        <p>Etkinlik 2: Yardım Kampanyası</p>
+                    </div>
+                </section>
+            </aside>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+        <p>&copy; 2024 Alan Kültür ve Yardım Vakfı. Tüm hakları saklıdır.</p>
+    </div>
+    </footer>
+    
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+</html>

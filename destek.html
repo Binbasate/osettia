@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alan Kültür ve Yardım Vakfı</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div>
+    <header>
+        <div class="top-bar">
+            <span>info@alanvakfi.org.tr</span>
+        </div>
+        <div class="logo-section">
+            <img src="logo.png" height="100" width="450">
+        </div>
+        <nav class="main-menu">
+            <ul>
+                <li><a href="index.html">Anasayfa</a></li>
+                <li><a href="harita.html">Alan Vakfı</a>
+                <li><a href="#">Kütüphane</a></li>
+                <li><a href="destek.html">İletişim</a></li>
+                <li><a href="kayıt.html">Kayıt Ol</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="content-wrapper">
+            <section class="featured-content">
+                <div id="galeri" class="carousel slide" data-ride="carousel">
+                    <div class="form-container">
+                        <h2>Destek Talep Formu</h2>
+                        <form action="/submit_form" method="POST"></form>
+                        <div class="form-group">
+                        <label for="name">Adınız:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-posta Adresiniz:</label>
+                        <input type="email" id="email" name="email" required>
+                        <div class="form-group">
+                            <label for="subject">Konu:</label>
+                            <input type="text" id="subject" name="subject" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Mesajınız:</label>
+                                <textarea id="message" name="message" required></textarea>
+                            </div>
+                            <div class="form-group">    
+                                <button type="submit">Gönder</button>
+                                </div>
+                    </div>
+                    </div>
+            </section>
+            <aside class="sidebar">
+                <section class="announcements">
+                    <h2>Duyurular</h2>
+                    <ul>
+                        <li><a href="#">Yepyeni Bir Organizasyon... Bambaşka...</a></li>
+                        <li><a href="#">Ossetya Yolcusu Gençler...</a></li>
+                        <li><a href="#">Kamuoyuna Duyurulur...</a></li>
+                    </ul>
+                </section>
+                <section class="events">
+                    <h2>Etkinlikler</h2>
+                    <div class="event-item">
+                        <img src="unnamed.png" alt="Etkinlik 1">
+                        <p>Etkinlik 1: Kültür Festivali</p>
+                    </div>
+                    <div class="event-item">
+                        <img src="https://via.placeholder.com/150" alt="Etkinlik 2">
+                        <p>Etkinlik 2: Yardım Kampanyası</p>
+                    </div>
+
+                </section>
+            </aside>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Alan Kültür ve Yardım Vakfı. Tüm hakları saklıdır.</p>
+    </footer>
+</div>
+    
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+</html>

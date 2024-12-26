@@ -1,0 +1,210 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.top-bar {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.logo-section {
+    background-color: white;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.logo {
+    margin-left: 50px;
+    width: 80px;
+    height: auto;
+}
+
+.logo-section h1 {
+    margin-left: 15px;
+}
+
+/* Menü düzenlemeleri */
+.main-menu {
+    position: absolute;
+    float: right;
+    top: 95px;
+    left: 1100px; /* Menüyü biraz daha sağa yerleştiriyoruz */
+    z-index: 10; /* Menü üstte olacak */
+}
+
+.main-menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+
+.main-menu li {
+    margin-right: 20px;
+}
+
+.main-menu a {
+    display: block;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    background-color: rgba(255, 0, 0, 0.7); /* Saydam kırmızı arka plan */
+    border-radius: 0px;
+}
+
+.main-menu a:hover {
+    background-color: rgba(255, 0, 0, 1); /* Hoverda tam kırmızı */
+}
+
+.content-wrapper {
+    display: flex;
+    margin: 20px;
+}
+
+.featured-content {
+    flex: 3;
+    margin-right: 20px;
+}
+
+.featured-image img {
+    width: 1000px;
+    height: auto;
+    border: 2px solid #ccc;
+}
+
+.sidebar {
+    flex: 1;
+}
+
+.announcements, .events {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.event-item {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.event-item img {
+    margin-right: 10px;
+    width: 60px;
+    height: 60px;
+}
+
+footer {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.logo-section {
+    background-color: white;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Sol hizalama korundu */
+}
+
+.logo {
+    margin-left: 1; /* Hafif sağa kaydırma için boşluk ayarı */
+    width: 200px;
+    height: auto;
+}
+
+.logo-section h1 {
+    margin-left: 40px; /* Başlık ile logo arasındaki boşluk */
+}
+.main-image img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #ccc;
+    margin-bottom: 10px;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .thumbnails {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .thumbnails img {
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .thumbnails img:hover {
+    transform: scale(1.1);
+  }
+  
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    padding: 20px;
+}
+.form-container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 0 auto;
+}
+.form-container h2 {
+    text-align: center;
+    color: #333;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    color: #333;
+    margin-bottom: 5px;
+}
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.form-group textarea {
+    resize: vertical;
+    height: 150px;
+}
+.form-group button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+.form-group button:hover {
+    background-color: #45a049;
+}
+
+
+.container {
+    display: flex;
+    gap: 15px; /* Öğeler arasına 20px boşluk ekler */
+  }
